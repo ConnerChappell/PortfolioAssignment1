@@ -1,0 +1,133 @@
+html {
+  background-color: #FFF;
+}
+
+body {
+  font-family: "Muli", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  margin: 0;
+  }
+  
+h3 {
+  color: #D71920;
+  font-size: 1.75em;
+  }
+
+h4 {
+  color: #D71920;
+  margin: 6px 0px;
+  font-size: 1.5em;
+  }
+
+#container {
+  margin: 0 auto;
+  width: 960px;
+  }
+  
+header {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  }
+  
+  /* Bio Section Styling Start */
+#bio {
+  display: flex;
+  }
+  
+#bio img {
+  width: 227px;
+  height: 227px;
+  }
+  
+#bio-details {
+  margin-left: 20px;
+  flex: 1;
+  }
+  
+#namedate {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  }
+  
+#dev-list {
+  background-color: #484848;
+  padding: 10px;
+  }
+
+#dev-list > h3 {
+  margin-top: 4px;
+  font-size: 1.25em;
+  }
+
+ul {
+  font-size: 16px;
+  padding: 0px;
+  list-style-position: inside;
+  }
+    
+li{
+  color:  #d3d3d3;
+  }
+
+time {
+  font-size: 1.5em;
+  }
+  /* Bio Section Styling End */
+  
+  /* Tech Section Styling Start */
+#tech {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  }
+
+figure {
+  margin: 0px;
+  display: flex;
+  flex-flow: column;
+  max-width: 180px;
+  }
+
+#html img {
+  padding-left: 15%;
+  justify-content: center;
+}
+  
+figure img {
+  max-height: 180px;
+  }
+  
+figcaption {
+  color: #FFFFFF;
+  text-align: center;
+  background: rgba(3,3,3,0.5);
+  position: relative;
+  bottom: 25px;
+  padding: 6px;
+  }
+  /* Tech Section Styling End */
+
+  /* Interest Section Styling Start */
+#interest div {
+  background-color: #484848;
+  padding: 12px;
+  }
+
+#interest h3 {
+  margin-top: 20px;
+  color: #000;
+  }
+
+#interest p {
+  color: #FFFFFF;
+  }
+  /* Interest Section Styling End */
+
+footer {
+  font-size: 1em;
+  text-align: center;
+  }
